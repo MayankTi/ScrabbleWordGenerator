@@ -59,10 +59,6 @@ public class Scrabble {
 		
 		System.out.print("GIVE INPUT  \n");
 		String rackWords = input.nextLine();
-		
-		
-		
-		//Map<Integer, String> updatedWordScore = new HashMap<Integer, String>();
 		WordRecommender wordRecommender = new WordRecommender();
 		System.out.println(wordRecommender.maxScoreWords(rackWords));
 		
